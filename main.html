@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Agenda de Contatos</h2>
+            <form id="list" class="list">
+                <input id="name-complit" type="text" required placeholder="Nome completo">
+                <input id="e-mail" type="text" required placeholder="E-mail">
+                <input id="phone" type="number" required placeholder="Telefone"> 
+                <button type="submit">Cadastrar</button>
+            </form>
+            <table class="list">
+                <thead>
+                    <tr>
+                        <th>Nome Completo</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Contatos serão adicionados aqui -->
+                </tbody>
+            </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
